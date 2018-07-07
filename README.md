@@ -1,5 +1,5 @@
 # Handwritten Digit Recognition
-This is a python implementation of fully connected Convolutional Neural Network for the recognition of handwritten digits. The neural network takes the input 2D array of 28x28 pixels grayscale handwritten image and gives the output from 0 to 9. It has 3 layers, Input layer with 784 neurons, Hidden layer with 128 neurons and an Output layer with 10 neurons. Script uses Gradient Descent with Back Propagation for the training of the network.
+This is a python implementation of fully connected Convolutional Neural Network for the recognition of handwritten digits. The neural network takes the 2D array of 28x28 pixels grayscale handwritten image as input and gives the result from 0 to 9 as output. It has 3 layers, Input layer with 784 neurons, Hidden layer with 128 neurons and an Output layer with 10 neurons. Script uses Gradient Descent with Back Propagation for the training of the network.
 
 ## Requirements
 - Python 3.5+
