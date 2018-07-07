@@ -27,7 +27,7 @@ for j in range(batches):
     result = np.zeros((size, 10), dtype=int)
     for i in range(size):
         result[i][out[i]] = 1
-    x = data/255    # CONVERTING 0-255 TO 0-1
+    x = data/255
     y = result
     
     for i in range(epoch):
