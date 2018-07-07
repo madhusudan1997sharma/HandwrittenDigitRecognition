@@ -16,12 +16,12 @@ This is a python implementation of fully connected Convolutional Neural Network 
 3. For training of the network, run `TrainingCNN.py` file.
     - Current code configuration will make 200 batches of the dataset with 2000 epoch and a learning rate of 0.01.
     - It will create 4 CSV files in the local directory containing the weights and bias of the network layers.
-> Note: It will take around 1 hour 40 minutes for the training. Make sure to properly cool your machine during the process to avoid any internal damages.
+    > Note: It will take around 1 hour 40 minutes for the training. Make sure to properly cool your machine during the process to avoid any internal damages.
 
-4. Run `DigitRecognizerCNN.py` file for the testing of te Neural Network.
+4. Run `DigitRecognizerCNN.py` file for the testing of the Neural Network.
 
 ## Accuracy
-Current weights & bias produces the accuracy of 89.0% over the 200 handwritten digits.
+Current weights & bias produces the accuracy of 89.0% on 200 handwritten digits.
 
 ## License
-Handwritten Digit Recognition is [GNU GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html)
+Handwritten Digit Recognition is licensed under [GNU GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html)
